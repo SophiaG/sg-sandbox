@@ -1,0 +1,646 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'angular-cli' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'angular-cli', null ]
+5 verbose cache add name=undefined spec="angular-cli" args=["angular-cli",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'angular-cli',
+6 verbose parsed url   path: 'angular-cli',
+6 verbose parsed url   href: 'angular-cli' }
+7 silly lockFile 3f404d41-angular-cli angular-cli
+8 verbose lock angular-cli /home/sophia/.npm/3f404d41-angular-cli.lock
+9 silly lockFile 3f404d41-angular-cli angular-cli
+10 silly lockFile 3f404d41-angular-cli angular-cli
+11 verbose addNamed [ 'angular-cli', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 5e40e1bb-angular-cli angular-cli@
+14 verbose lock angular-cli@ /home/sophia/.npm/5e40e1bb-angular-cli.lock
+15 silly addNameRange { name: 'angular-cli', range: '*', hasData: false }
+16 verbose url raw angular-cli
+17 verbose url resolving [ 'https://registry.npmjs.org/', './angular-cli' ]
+18 verbose url resolved https://registry.npmjs.org/angular-cli
+19 info trying registry request attempt 1 at 22:38:26
+20 http GET https://registry.npmjs.org/angular-cli
+21 http 200 https://registry.npmjs.org/angular-cli
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"DEEZI3TGD4L67KVE182XIERF"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'content-length': '152993',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Tue, 13 Sep 2016 13:08:28 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-mel6521-MEL',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1473772106.903664,VS0,VE1619',
+22 silly registry.get     vary: 'Accept-Encoding' } ]
+23 silly addNameRange number 2 { name: 'angular-cli', range: '*', hasData: true }
+24 silly addNameRange versions [ 'angular-cli',
+24 silly addNameRange   [ '0.0.0',
+24 silly addNameRange     '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.0.5',
+24 silly addNameRange     '0.0.6',
+24 silly addNameRange     '0.0.7',
+24 silly addNameRange     '0.0.8',
+24 silly addNameRange     '0.0.9',
+24 silly addNameRange     '0.0.10',
+24 silly addNameRange     '0.0.11',
+24 silly addNameRange     '0.0.12',
+24 silly addNameRange     '0.0.13',
+24 silly addNameRange     '0.0.14',
+24 silly addNameRange     '0.0.15',
+24 silly addNameRange     '0.0.16',
+24 silly addNameRange     '0.0.17',
+24 silly addNameRange     '0.0.18',
+24 silly addNameRange     '0.0.19',
+24 silly addNameRange     '0.0.20',
+24 silly addNameRange     '0.0.22',
+24 silly addNameRange     '0.0.23',
+24 silly addNameRange     '0.0.24',
+24 silly addNameRange     '0.0.25',
+24 silly addNameRange     '0.0.26',
+24 silly addNameRange     '0.0.27',
+24 silly addNameRange     '0.0.28',
+24 silly addNameRange     '0.0.29',
+24 silly addNameRange     '0.0.30',
+24 silly addNameRange     '0.0.31',
+24 silly addNameRange     '0.0.33',
+24 silly addNameRange     '0.0.34',
+24 silly addNameRange     '0.0.37',
+24 silly addNameRange     '0.0.39',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '1.0.0-beta.0',
+24 silly addNameRange     '1.0.0-beta.1',
+24 silly addNameRange     '1.0.0-beta.2-mobile',
+24 silly addNameRange     '1.0.0-beta.2-mobile.1',
+24 silly addNameRange     '1.0.0-beta.2-mobile.2',
+24 silly addNameRange     '1.0.0-beta.2-mobile.3',
+24 silly addNameRange     '1.0.0-beta.2-mobile.4',
+24 silly addNameRange     '1.0.0-beta.4',
+24 silly addNameRange     '1.0.0-beta.5',
+24 silly addNameRange     '1.0.0-beta.6',
+24 silly addNameRange     '1.0.0-beta.8',
+24 silly addNameRange     '1.0.0-beta.9',
+24 silly addNameRange     '1.0.0-beta.10',
+24 silly addNameRange     '1.0.0-beta.11-webpack',
+24 silly addNameRange     '1.0.0-beta.11-webpack.2',
+24 silly addNameRange     '1.0.0-beta.11-webpack.3',
+24 silly addNameRange     '1.0.0-beta.11-webpack.4',
+24 silly addNameRange     '1.0.0-beta.11-webpack.5',
+24 silly addNameRange     '1.0.0-beta.11-webpack.6',
+24 silly addNameRange     '1.0.0-beta.11-webpack.7',
+24 silly addNameRange     '1.0.0-beta.11-webpack.8' ] ]
+25 verbose addNamed [ 'angular-cli', '1.0.0-beta.10' ]
+26 verbose addNamed [ '1.0.0-beta.10', '1.0.0-beta.10' ]
+27 silly lockFile 4ecd2dac-angular-cli-1-0-0-beta-10 angular-cli@1.0.0-beta.10
+28 verbose lock angular-cli@1.0.0-beta.10 /home/sophia/.npm/4ecd2dac-angular-cli-1-0-0-beta-10.lock
+29 silly lockFile 7389bc78-li-angular-cli-1-0-0-beta-10-tgz https://registry.npmjs.org/angular-cli/-/angular-cli-1.0.0-beta.10.tgz
+30 verbose lock https://registry.npmjs.org/angular-cli/-/angular-cli-1.0.0-beta.10.tgz /home/sophia/.npm/7389bc78-li-angular-cli-1-0-0-beta-10-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular-cli/-/angular-cli-1.0.0-beta.10.tgz',
+31 verbose addRemoteTarball   'e8c389a37a7a9926b09b354a0078464f8af2854e' ]
+32 info retry fetch attempt 1 at 22:38:28
+33 verbose fetch to= /home/sophia/tmp/npm-11749-Bc_Ub-Zt/1473772108951-0.5754433744587004/tmp.tgz
+34 http GET https://registry.npmjs.org/angular-cli/-/angular-cli-1.0.0-beta.10.tgz
+35 http 200 https://registry.npmjs.org/angular-cli/-/angular-cli-1.0.0-beta.10.tgz
+36 verbose tar unpack /home/sophia/tmp/npm-11749-Bc_Ub-Zt/1473772108951-0.5754433744587004/tmp.tgz
+37 silly lockFile 81206df9-08951-0-5754433744587004-package tar:///home/sophia/tmp/npm-11749-Bc_Ub-Zt/1473772108951-0.5754433744587004/package
+38 verbose lock tar:///home/sophia/tmp/npm-11749-Bc_Ub-Zt/1473772108951-0.5754433744587004/package /home/sophia/.npm/81206df9-08951-0-5754433744587004-package.lock
+39 silly lockFile c782af63-08951-0-5754433744587004-tmp-tgz tar:///home/sophia/tmp/npm-11749-Bc_Ub-Zt/1473772108951-0.5754433744587004/tmp.tgz
+40 verbose lock tar:///home/sophia/tmp/npm-11749-Bc_Ub-Zt/1473772108951-0.5754433744587004/tmp.tgz /home/sophia/.npm/c782af63-08951-0-5754433744587004-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry LICENSE
+46 silly gunzTarPerm extractEntry index.js
+47 silly gunzTarPerm extractEntry addon/ng2/package.json
+48 silly gunzTarPerm extractEntry addon/ng2/index.js
+49 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/index.js
+50 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/system-import.js
+51 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-72x72.png
+52 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/android-chrome-144x144.png
+53 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/android-chrome-36x36.png
+54 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/android-chrome-48x48.png
+55 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/android-chrome-72x72.png
+56 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/android-chrome-96x96.png
+57 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-114x114.png
+58 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-120x120.png
+59 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-144x144.png
+60 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-152x152.png
+61 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-180x180.png
+62 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-57x57.png
+63 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-60x60.png
+64 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/android-chrome-192x192.png
+65 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-76x76.png
+66 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-precomposed.png
+67 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon.png
+68 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/favicon-16x16.png
+69 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/favicon-32x32.png
+70 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/favicon-96x96.png
+71 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/icon.png
+72 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/mstile-144x144.png
+73 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/mstile-150x150.png
+74 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/mstile-310x150.png
+75 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/mstile-310x310.png
+76 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/mstile-70x70.png
+77 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/safari-pinned-tab.svg
+78 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/main-app-shell.ts
+79 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/manifest.webapp
+80 silly gunzTarPerm extractEntry addon/ng2/blueprints/class/index.js
+81 silly gunzTarPerm extractEntry addon/ng2/blueprints/class/files/__path__/__name__.spec.ts
+82 silly gunzTarPerm extractEntry addon/ng2/blueprints/class/files/__path__/__name__.ts
+83 silly gunzTarPerm extractEntry addon/ng2/blueprints/component-test/index.js
+84 silly gunzTarPerm extractEntry addon/ng2/blueprints/directive/index.js
+85 silly gunzTarPerm extractEntry addon/ng2/blueprints/directive/files/__path__/__name__.directive.spec.ts
+86 silly gunzTarPerm extractEntry addon/ng2/blueprints/directive/files/__path__/__name__.directive.ts
+87 silly gunzTarPerm extractEntry addon/ng2/blueprints/directive/files/__path__/index.ts
+88 silly gunzTarPerm extractEntry addon/ng2/blueprints/enum/index.js
+89 silly gunzTarPerm extractEntry addon/ng2/blueprints/enum/files/__path__/__name__.enum.ts
+90 silly gunzTarPerm extractEntry addon/ng2/blueprints/interface/index.js
+91 silly gunzTarPerm extractEntry addon/ng2/blueprints/interface/files/__path__/__name__.ts
+92 silly gunzTarPerm extractEntry addon/ng2/blueprints/component/index.js
+93 silly gunzTarPerm extractEntry addon/ng2/blueprints/component/files/__path__/__name__.component.__styleext__
+94 silly gunzTarPerm extractEntry addon/ng2/blueprints/component/files/__path__/__name__.component.html
+95 silly gunzTarPerm extractEntry addon/ng2/blueprints/component/files/__path__/__name__.component.spec.ts
+96 silly gunzTarPerm extractEntry addon/ng2/blueprints/component/files/__path__/__name__.component.ts
+97 silly gunzTarPerm extractEntry addon/ng2/blueprints/component/files/__path__/index.ts
+98 silly gunzTarPerm extractEntry addon/ng2/blueprints/component/files/__path__/shared/index.ts
+99 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/index.js
+100 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/package.json
+101 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/README.md
+102 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/angular-cli-build.js
+103 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/e2e/app.e2e-spec.ts
+104 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/e2e/app.po.ts
+105 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/e2e/tsconfig.json
+106 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/e2e/typings.d.ts
+107 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/angular-cli.json
+108 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/config/environment.js
+109 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/config/karma-test-shim.js
+110 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/config/karma.conf.js
+111 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/config/protractor.conf.js
+112 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/config/environment.dev.ts
+113 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/config/environment.prod.ts
+114 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/app/app.component.__styleext__
+115 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/app/app.component.html
+116 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/app/app.component.spec.ts
+117 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/app/app.component.ts
+118 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/app/environment.ts
+119 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/app/index.ts
+120 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/app/shared/index.ts
+121 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/favicon.ico
+122 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/index.html
+123 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/main.ts
+124 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/system-config.ts
+125 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/tsconfig.json
+126 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/typings.d.ts
+127 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/gitignore
+128 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/.editorconfig
+129 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/public/.npmignore
+130 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/tslint.json
+131 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/typings.json
+132 silly gunzTarPerm extractEntry addon/ng2/blueprints/pipe/index.js
+133 silly gunzTarPerm extractEntry addon/ng2/blueprints/pipe/files/__path__/__name__.pipe.spec.ts
+134 silly gunzTarPerm extractEntry addon/ng2/blueprints/pipe/files/__path__/__name__.pipe.ts
+135 silly gunzTarPerm extractEntry addon/ng2/blueprints/pipe/files/__path__/index.ts
+136 silly gunzTarPerm extractEntry addon/ng2/blueprints/route/index.js
+137 silly gunzTarPerm extractEntry addon/ng2/blueprints/route-test/index.js
+138 silly gunzTarPerm extractEntry addon/ng2/blueprints/service/index.js
+139 silly gunzTarPerm extractEntry addon/ng2/blueprints/service/files/__path__/__name__.service.spec.ts
+140 silly gunzTarPerm extractEntry addon/ng2/blueprints/service/files/__path__/__name__.service.ts
+141 silly gunzTarPerm extractEntry addon/ng2/blueprints/service/files/__path__/index.ts
+142 silly gunzTarPerm extractEntry addon/ng2/blueprints/service-test/index.js
+143 silly gunzTarPerm extractEntry addon/ng2/commands/completion.js
+144 silly gunzTarPerm extractEntry addon/ng2/commands/init.js
+145 silly gunzTarPerm extractEntry addon/ng2/commands/test.js
+146 silly gunzTarPerm extractEntry addon/ng2/commands/easter-egg.ts
+147 silly gunzTarPerm extractEntry addon/ng2/commands/generate.ts
+148 silly gunzTarPerm extractEntry addon/ng2/commands/get.ts
+149 silly gunzTarPerm extractEntry addon/ng2/commands/doc.ts
+150 silly gunzTarPerm extractEntry addon/ng2/commands/version.ts
+151 silly gunzTarPerm extractEntry addon/ng2/commands/lint.ts
+152 silly gunzTarPerm extractEntry addon/ng2/commands/new.ts
+153 silly gunzTarPerm extractEntry addon/ng2/commands/set.ts
+154 silly gunzTarPerm extractEntry addon/ng2/commands/e2e.ts
+155 silly gunzTarPerm extractEntry addon/ng2/commands/github-pages-deploy.ts
+156 silly gunzTarPerm extractEntry addon/ng2/models/config.ts
+157 silly gunzTarPerm extractEntry addon/ng2/tasks/git-init.js
+158 silly gunzTarPerm extractEntry addon/ng2/tasks/npm-install.js
+159 silly gunzTarPerm extractEntry addon/ng2/tasks/npm-task.js
+160 silly gunzTarPerm extractEntry addon/ng2/tasks/test.js
+161 silly gunzTarPerm extractEntry addon/ng2/tasks/create-github-repo.ts
+162 silly gunzTarPerm extractEntry addon/ng2/tasks/doc.ts
+163 silly gunzTarPerm extractEntry addon/ng2/tasks/e2e.ts
+164 silly gunzTarPerm extractEntry addon/ng2/tasks/link-cli.ts
+165 silly gunzTarPerm extractEntry addon/ng2/tasks/lint.ts
+166 silly gunzTarPerm extractEntry addon/ng2/utilities/barrel-management.js
+167 silly gunzTarPerm extractEntry addon/ng2/utilities/dynamic-path-parser.js
+168 silly gunzTarPerm extractEntry addon/ng2/utilities/npm.js
+169 silly gunzTarPerm extractEntry addon/ng2/utilities/INITIAL_COMMIT_MESSAGE.txt
+170 silly gunzTarPerm extractEntry addon/ng2/utilities/change.ts
+171 silly gunzTarPerm extractEntry addon/ng2/utilities/completion.sh
+172 silly gunzTarPerm extractEntry addon/ng2/utilities/get-dependent-files.ts
+173 silly gunzTarPerm extractEntry .appveyor.yml
+174 silly gunzTarPerm extractEntry .nvmrc
+175 silly gunzTarPerm extractEntry .travis.yml
+176 silly gunzTarPerm extractEntry CHANGELOG.md
+177 silly gunzTarPerm extractEntry CONTRIBUTING.md
+178 silly gunzTarPerm extractEntry .eslintignore
+179 silly gunzTarPerm extractEntry .eslintrc.json
+180 silly gunzTarPerm extractEntry .editorconfig
+181 silly gunzTarPerm extractEntry bin/ng
+182 silly gunzTarPerm extractEntry docs/design/docker-deploy.md
+183 silly gunzTarPerm extractEntry docs/design/ngConfig.md
+184 silly gunzTarPerm extractEntry docs/design/third-party-libraries.md
+185 silly gunzTarPerm extractEntry lib/broccoli/angular-broccoli-bundle.js
+186 silly gunzTarPerm extractEntry lib/broccoli/angular-broccoli-less.js
+187 silly gunzTarPerm extractEntry lib/broccoli/angular-broccoli-sass.js
+188 silly gunzTarPerm extractEntry lib/broccoli/angular-broccoli-stylus.js
+189 silly gunzTarPerm extractEntry lib/broccoli/angular-broccoli-compass.js
+190 silly gunzTarPerm extractEntry lib/broccoli/broccoli-handlebars.js
+191 silly gunzTarPerm extractEntry lib/broccoli/broccoli-typescript.js
+192 silly gunzTarPerm extractEntry lib/broccoli/environment.js
+193 silly gunzTarPerm extractEntry lib/broccoli/is-production.js
+194 silly gunzTarPerm extractEntry lib/broccoli/require-or-null.js
+195 silly gunzTarPerm extractEntry lib/broccoli/angular2-app.js
+196 silly gunzTarPerm extractEntry lib/cli/index.js
+197 silly gunzTarPerm extractEntry lib/config/schema.json
+198 silly gunzTarPerm extractEntry tslint.json
+199 silly gunzTarPerm extractEntry npm-shrinkwrap.json
+200 silly gunzTarPerm extractEntry .github/ISSUE_TEMPLATE.md
+201 silly gunzTarPerm extractEntry scripts/publish/changelog.js
+202 silly gunzTarPerm extractEntry scripts/publish/shrinkwrap.js
+203 silly gunzTarPerm extractEntry tests/runner.js
+204 silly gunzTarPerm extractEntry tests/acceptance/barrel-management.spec.js
+205 silly gunzTarPerm extractEntry tests/acceptance/dynamic-path-parser.spec.js
+206 silly gunzTarPerm extractEntry tests/acceptance/generate-class.spec.js
+207 silly gunzTarPerm extractEntry tests/acceptance/generate-component.spec.js
+208 silly gunzTarPerm extractEntry tests/acceptance/generate-directive.spec.js
+209 silly gunzTarPerm extractEntry tests/acceptance/init.spec.js
+210 silly gunzTarPerm extractEntry tests/acceptance/generate-route.spec.js
+211 silly gunzTarPerm extractEntry tests/acceptance/generate-service.spec.js
+212 silly gunzTarPerm extractEntry tests/acceptance/github-pages-deploy.spec.js
+213 silly gunzTarPerm extractEntry tests/acceptance/new.spec.js
+214 silly gunzTarPerm extractEntry tests/acceptance/generate-pipe.spec.js
+215 silly gunzTarPerm extractEntry tests/acceptance/get-dependent-files.spec.ts
+216 silly gunzTarPerm extractEntry tests/acceptance/change.spec.ts
+217 silly gunzTarPerm extractEntry tests/e2e/e2e_workflow.spec.js
+218 silly gunzTarPerm extractEntry tests/helpers/exec-stub.js
+219 silly gunzTarPerm extractEntry tests/helpers/mock-analytics.js
+220 silly gunzTarPerm extractEntry tests/helpers/mock-ui.js
+221 silly gunzTarPerm extractEntry tests/helpers/ng.js
+222 silly gunzTarPerm extractEntry tests/helpers/tmp.js
+223 silly gunzTarPerm extractEntry tests/models/config.spec.ts
+224 silly gunzTarPerm extractEntry tsconfig.json
+225 silly gunzTarPerm extractEntry typings.json
+226 silly lockFile 81206df9-08951-0-5754433744587004-package tar:///home/sophia/tmp/npm-11749-Bc_Ub-Zt/1473772108951-0.5754433744587004/package
+227 silly lockFile 81206df9-08951-0-5754433744587004-package tar:///home/sophia/tmp/npm-11749-Bc_Ub-Zt/1473772108951-0.5754433744587004/package
+228 silly lockFile c782af63-08951-0-5754433744587004-tmp-tgz tar:///home/sophia/tmp/npm-11749-Bc_Ub-Zt/1473772108951-0.5754433744587004/tmp.tgz
+229 silly lockFile c782af63-08951-0-5754433744587004-tmp-tgz tar:///home/sophia/tmp/npm-11749-Bc_Ub-Zt/1473772108951-0.5754433744587004/tmp.tgz
+230 verbose tar pack [ '/home/sophia/.npm/angular-cli/1.0.0-beta.10/package.tgz',
+230 verbose tar pack   '/home/sophia/tmp/npm-11749-Bc_Ub-Zt/1473772108951-0.5754433744587004/package' ]
+231 verbose tarball /home/sophia/.npm/angular-cli/1.0.0-beta.10/package.tgz
+232 verbose folder /home/sophia/tmp/npm-11749-Bc_Ub-Zt/1473772108951-0.5754433744587004/package
+233 silly lockFile 81206df9-08951-0-5754433744587004-package tar:///home/sophia/tmp/npm-11749-Bc_Ub-Zt/1473772108951-0.5754433744587004/package
+234 verbose lock tar:///home/sophia/tmp/npm-11749-Bc_Ub-Zt/1473772108951-0.5754433744587004/package /home/sophia/.npm/81206df9-08951-0-5754433744587004-package.lock
+235 silly lockFile 47c27603-ar-cli-1-0-0-beta-10-package-tgz tar:///home/sophia/.npm/angular-cli/1.0.0-beta.10/package.tgz
+236 verbose lock tar:///home/sophia/.npm/angular-cli/1.0.0-beta.10/package.tgz /home/sophia/.npm/47c27603-ar-cli-1-0-0-beta-10-package-tgz.lock
+237 silly lockFile 81206df9-08951-0-5754433744587004-package tar:///home/sophia/tmp/npm-11749-Bc_Ub-Zt/1473772108951-0.5754433744587004/package
+238 silly lockFile 81206df9-08951-0-5754433744587004-package tar:///home/sophia/tmp/npm-11749-Bc_Ub-Zt/1473772108951-0.5754433744587004/package
+239 silly lockFile 47c27603-ar-cli-1-0-0-beta-10-package-tgz tar:///home/sophia/.npm/angular-cli/1.0.0-beta.10/package.tgz
+240 silly lockFile 47c27603-ar-cli-1-0-0-beta-10-package-tgz tar:///home/sophia/.npm/angular-cli/1.0.0-beta.10/package.tgz
+241 silly lockFile 5b1b1772-ngular-cli-1-0-0-beta-10-package /home/sophia/.npm/angular-cli/1.0.0-beta.10/package
+242 verbose lock /home/sophia/.npm/angular-cli/1.0.0-beta.10/package /home/sophia/.npm/5b1b1772-ngular-cli-1-0-0-beta-10-package.lock
+243 silly lockFile 5b1b1772-ngular-cli-1-0-0-beta-10-package /home/sophia/.npm/angular-cli/1.0.0-beta.10/package
+244 silly lockFile 5b1b1772-ngular-cli-1-0-0-beta-10-package /home/sophia/.npm/angular-cli/1.0.0-beta.10/package
+245 verbose tar unpack /home/sophia/.npm/angular-cli/1.0.0-beta.10/package.tgz
+246 silly lockFile ad9b3f37-ngular-cli-1-0-0-beta-10-package tar:///home/sophia/.npm/angular-cli/1.0.0-beta.10/package
+247 verbose lock tar:///home/sophia/.npm/angular-cli/1.0.0-beta.10/package /home/sophia/.npm/ad9b3f37-ngular-cli-1-0-0-beta-10-package.lock
+248 silly lockFile 47c27603-ar-cli-1-0-0-beta-10-package-tgz tar:///home/sophia/.npm/angular-cli/1.0.0-beta.10/package.tgz
+249 verbose lock tar:///home/sophia/.npm/angular-cli/1.0.0-beta.10/package.tgz /home/sophia/.npm/47c27603-ar-cli-1-0-0-beta-10-package-tgz.lock
+250 silly gunzTarPerm modes [ '755', '644' ]
+251 silly gunzTarPerm extractEntry package.json
+252 silly gunzTarPerm extractEntry .npmignore
+253 silly gunzTarPerm extractEntry README.md
+254 silly gunzTarPerm extractEntry LICENSE
+255 silly gunzTarPerm extractEntry index.js
+256 silly gunzTarPerm extractEntry addon/ng2/package.json
+257 silly gunzTarPerm extractEntry addon/ng2/index.js
+258 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/index.js
+259 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/system-import.js
+260 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-72x72.png
+261 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/android-chrome-144x144.png
+262 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/android-chrome-36x36.png
+263 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/android-chrome-48x48.png
+264 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/android-chrome-72x72.png
+265 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/android-chrome-96x96.png
+266 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-114x114.png
+267 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-120x120.png
+268 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-144x144.png
+269 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-152x152.png
+270 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-180x180.png
+271 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-57x57.png
+272 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-60x60.png
+273 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/android-chrome-192x192.png
+274 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-76x76.png
+275 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon-precomposed.png
+276 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/apple-touch-icon.png
+277 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/favicon-16x16.png
+278 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/favicon-32x32.png
+279 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/favicon-96x96.png
+280 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/icon.png
+281 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/mstile-144x144.png
+282 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/mstile-150x150.png
+283 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/mstile-310x150.png
+284 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/mstile-310x310.png
+285 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/mstile-70x70.png
+286 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/icons/safari-pinned-tab.svg
+287 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/main-app-shell.ts
+288 silly gunzTarPerm extractEntry addon/ng2/blueprints/mobile/files/__path__/manifest.webapp
+289 silly gunzTarPerm extractEntry addon/ng2/blueprints/class/index.js
+290 silly gunzTarPerm extractEntry addon/ng2/blueprints/class/files/__path__/__name__.spec.ts
+291 silly gunzTarPerm extractEntry addon/ng2/blueprints/class/files/__path__/__name__.ts
+292 silly gunzTarPerm extractEntry addon/ng2/blueprints/component-test/index.js
+293 silly gunzTarPerm extractEntry addon/ng2/blueprints/directive/index.js
+294 silly gunzTarPerm extractEntry addon/ng2/blueprints/directive/files/__path__/__name__.directive.spec.ts
+295 silly gunzTarPerm extractEntry addon/ng2/blueprints/directive/files/__path__/__name__.directive.ts
+296 silly gunzTarPerm extractEntry addon/ng2/blueprints/directive/files/__path__/index.ts
+297 silly gunzTarPerm extractEntry addon/ng2/blueprints/enum/index.js
+298 silly gunzTarPerm extractEntry addon/ng2/blueprints/enum/files/__path__/__name__.enum.ts
+299 silly gunzTarPerm extractEntry addon/ng2/blueprints/interface/index.js
+300 silly gunzTarPerm extractEntry addon/ng2/blueprints/interface/files/__path__/__name__.ts
+301 silly gunzTarPerm extractEntry addon/ng2/blueprints/component/index.js
+302 silly gunzTarPerm extractEntry addon/ng2/blueprints/component/files/__path__/__name__.component.__styleext__
+303 silly gunzTarPerm extractEntry addon/ng2/blueprints/component/files/__path__/__name__.component.html
+304 silly gunzTarPerm extractEntry addon/ng2/blueprints/component/files/__path__/__name__.component.spec.ts
+305 silly gunzTarPerm extractEntry addon/ng2/blueprints/component/files/__path__/__name__.component.ts
+306 silly gunzTarPerm extractEntry addon/ng2/blueprints/component/files/__path__/index.ts
+307 silly gunzTarPerm extractEntry addon/ng2/blueprints/component/files/__path__/shared/index.ts
+308 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/index.js
+309 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/package.json
+310 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/README.md
+311 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/angular-cli-build.js
+312 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/e2e/app.e2e-spec.ts
+313 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/e2e/app.po.ts
+314 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/e2e/tsconfig.json
+315 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/e2e/typings.d.ts
+316 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/angular-cli.json
+317 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/config/environment.js
+318 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/config/karma-test-shim.js
+319 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/config/karma.conf.js
+320 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/config/protractor.conf.js
+321 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/config/environment.dev.ts
+322 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/config/environment.prod.ts
+323 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/app/app.component.__styleext__
+324 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/app/app.component.html
+325 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/app/app.component.spec.ts
+326 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/app/app.component.ts
+327 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/app/environment.ts
+328 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/app/index.ts
+329 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/app/shared/index.ts
+330 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/favicon.ico
+331 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/index.html
+332 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/main.ts
+333 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/system-config.ts
+334 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/tsconfig.json
+335 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/__path__/typings.d.ts
+336 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/gitignore
+337 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/.editorconfig
+338 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/public/.npmignore
+339 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/tslint.json
+340 silly gunzTarPerm extractEntry addon/ng2/blueprints/ng2/files/typings.json
+341 silly gunzTarPerm extractEntry addon/ng2/blueprints/pipe/index.js
+342 silly gunzTarPerm extractEntry addon/ng2/blueprints/pipe/files/__path__/__name__.pipe.spec.ts
+343 silly gunzTarPerm extractEntry addon/ng2/blueprints/pipe/files/__path__/__name__.pipe.ts
+344 silly gunzTarPerm extractEntry addon/ng2/blueprints/pipe/files/__path__/index.ts
+345 silly gunzTarPerm extractEntry addon/ng2/blueprints/route/index.js
+346 silly gunzTarPerm extractEntry addon/ng2/blueprints/route-test/index.js
+347 silly gunzTarPerm extractEntry addon/ng2/blueprints/service/index.js
+348 silly gunzTarPerm extractEntry addon/ng2/blueprints/service/files/__path__/__name__.service.spec.ts
+349 silly gunzTarPerm extractEntry addon/ng2/blueprints/service/files/__path__/__name__.service.ts
+350 silly gunzTarPerm extractEntry addon/ng2/blueprints/service/files/__path__/index.ts
+351 silly gunzTarPerm extractEntry addon/ng2/blueprints/service-test/index.js
+352 silly gunzTarPerm extractEntry addon/ng2/commands/completion.js
+353 silly gunzTarPerm extractEntry addon/ng2/commands/init.js
+354 silly gunzTarPerm extractEntry addon/ng2/commands/test.js
+355 silly gunzTarPerm extractEntry addon/ng2/commands/easter-egg.ts
+356 silly gunzTarPerm extractEntry addon/ng2/commands/generate.ts
+357 silly gunzTarPerm extractEntry addon/ng2/commands/get.ts
+358 silly gunzTarPerm extractEntry addon/ng2/commands/doc.ts
+359 silly gunzTarPerm extractEntry addon/ng2/commands/version.ts
+360 silly gunzTarPerm extractEntry addon/ng2/commands/lint.ts
+361 silly gunzTarPerm extractEntry addon/ng2/commands/new.ts
+362 silly gunzTarPerm extractEntry addon/ng2/commands/set.ts
+363 silly gunzTarPerm extractEntry addon/ng2/commands/e2e.ts
+364 silly gunzTarPerm extractEntry addon/ng2/commands/github-pages-deploy.ts
+365 silly gunzTarPerm extractEntry addon/ng2/models/config.ts
+366 silly gunzTarPerm extractEntry addon/ng2/tasks/git-init.js
+367 silly gunzTarPerm extractEntry addon/ng2/tasks/npm-install.js
+368 silly gunzTarPerm extractEntry addon/ng2/tasks/npm-task.js
+369 silly gunzTarPerm extractEntry addon/ng2/tasks/test.js
+370 silly gunzTarPerm extractEntry addon/ng2/tasks/create-github-repo.ts
+371 silly gunzTarPerm extractEntry addon/ng2/tasks/doc.ts
+372 silly gunzTarPerm extractEntry addon/ng2/tasks/e2e.ts
+373 silly gunzTarPerm extractEntry addon/ng2/tasks/link-cli.ts
+374 silly gunzTarPerm extractEntry addon/ng2/tasks/lint.ts
+375 silly gunzTarPerm extractEntry addon/ng2/utilities/barrel-management.js
+376 silly gunzTarPerm extractEntry addon/ng2/utilities/dynamic-path-parser.js
+377 silly gunzTarPerm extractEntry addon/ng2/utilities/npm.js
+378 silly gunzTarPerm extractEntry addon/ng2/utilities/INITIAL_COMMIT_MESSAGE.txt
+379 silly gunzTarPerm extractEntry addon/ng2/utilities/change.ts
+380 silly gunzTarPerm extractEntry addon/ng2/utilities/completion.sh
+381 silly gunzTarPerm extractEntry addon/ng2/utilities/get-dependent-files.ts
+382 silly gunzTarPerm extractEntry .nvmrc
+383 silly gunzTarPerm extractEntry .travis.yml
+384 silly gunzTarPerm extractEntry CHANGELOG.md
+385 silly gunzTarPerm extractEntry CONTRIBUTING.md
+386 silly gunzTarPerm extractEntry .eslintignore
+387 silly gunzTarPerm extractEntry .eslintrc.json
+388 silly gunzTarPerm extractEntry .editorconfig
+389 silly gunzTarPerm extractEntry bin/ng
+390 silly gunzTarPerm extractEntry docs/design/docker-deploy.md
+391 silly gunzTarPerm extractEntry docs/design/ngConfig.md
+392 silly gunzTarPerm extractEntry docs/design/third-party-libraries.md
+393 silly gunzTarPerm extractEntry .github/ISSUE_TEMPLATE.md
+394 silly gunzTarPerm extractEntry lib/broccoli/angular-broccoli-bundle.js
+395 silly gunzTarPerm extractEntry lib/broccoli/angular-broccoli-less.js
+396 silly gunzTarPerm extractEntry lib/broccoli/angular-broccoli-sass.js
+397 silly gunzTarPerm extractEntry lib/broccoli/angular-broccoli-stylus.js
+398 silly gunzTarPerm extractEntry lib/broccoli/angular-broccoli-compass.js
+399 silly gunzTarPerm extractEntry lib/broccoli/broccoli-handlebars.js
+400 silly gunzTarPerm extractEntry lib/broccoli/broccoli-typescript.js
+401 silly gunzTarPerm extractEntry lib/broccoli/environment.js
+402 silly gunzTarPerm extractEntry lib/broccoli/is-production.js
+403 silly gunzTarPerm extractEntry lib/broccoli/require-or-null.js
+404 silly gunzTarPerm extractEntry lib/broccoli/angular2-app.js
+405 silly gunzTarPerm extractEntry lib/cli/index.js
+406 silly gunzTarPerm extractEntry lib/config/schema.json
+407 silly gunzTarPerm extractEntry npm-shrinkwrap.json
+408 silly gunzTarPerm extractEntry .appveyor.yml
+409 silly gunzTarPerm extractEntry scripts/publish/changelog.js
+410 silly gunzTarPerm extractEntry scripts/publish/shrinkwrap.js
+411 silly gunzTarPerm extractEntry tests/runner.js
+412 silly gunzTarPerm extractEntry tests/acceptance/barrel-management.spec.js
+413 silly gunzTarPerm extractEntry tests/acceptance/dynamic-path-parser.spec.js
+414 silly gunzTarPerm extractEntry tests/acceptance/generate-class.spec.js
+415 silly gunzTarPerm extractEntry tests/acceptance/generate-component.spec.js
+416 silly gunzTarPerm extractEntry tests/acceptance/generate-directive.spec.js
+417 silly gunzTarPerm extractEntry tests/acceptance/init.spec.js
+418 silly gunzTarPerm extractEntry tests/acceptance/generate-route.spec.js
+419 silly gunzTarPerm extractEntry tests/acceptance/generate-service.spec.js
+420 silly gunzTarPerm extractEntry tests/acceptance/github-pages-deploy.spec.js
+421 silly gunzTarPerm extractEntry tests/acceptance/new.spec.js
+422 silly gunzTarPerm extractEntry tests/acceptance/generate-pipe.spec.js
+423 silly gunzTarPerm extractEntry tests/acceptance/get-dependent-files.spec.ts
+424 silly gunzTarPerm extractEntry tests/acceptance/change.spec.ts
+425 silly gunzTarPerm extractEntry tests/e2e/e2e_workflow.spec.js
+426 silly gunzTarPerm extractEntry tests/helpers/exec-stub.js
+427 silly gunzTarPerm extractEntry tests/helpers/mock-analytics.js
+428 silly gunzTarPerm extractEntry tests/helpers/mock-ui.js
+429 silly gunzTarPerm extractEntry tests/helpers/ng.js
+430 silly gunzTarPerm extractEntry tests/helpers/tmp.js
+431 silly gunzTarPerm extractEntry tests/models/config.spec.ts
+432 silly gunzTarPerm extractEntry tsconfig.json
+433 silly gunzTarPerm extractEntry tslint.json
+434 silly gunzTarPerm extractEntry typings.json
+435 silly lockFile ad9b3f37-ngular-cli-1-0-0-beta-10-package tar:///home/sophia/.npm/angular-cli/1.0.0-beta.10/package
+436 silly lockFile ad9b3f37-ngular-cli-1-0-0-beta-10-package tar:///home/sophia/.npm/angular-cli/1.0.0-beta.10/package
+437 silly lockFile 47c27603-ar-cli-1-0-0-beta-10-package-tgz tar:///home/sophia/.npm/angular-cli/1.0.0-beta.10/package.tgz
+438 silly lockFile 47c27603-ar-cli-1-0-0-beta-10-package-tgz tar:///home/sophia/.npm/angular-cli/1.0.0-beta.10/package.tgz
+439 verbose chmod /home/sophia/.npm/angular-cli/1.0.0-beta.10/package.tgz 644
+440 verbose chown /home/sophia/.npm/angular-cli/1.0.0-beta.10/package.tgz [ 1000, 1000 ]
+441 silly lockFile 7389bc78-li-angular-cli-1-0-0-beta-10-tgz https://registry.npmjs.org/angular-cli/-/angular-cli-1.0.0-beta.10.tgz
+442 silly lockFile 7389bc78-li-angular-cli-1-0-0-beta-10-tgz https://registry.npmjs.org/angular-cli/-/angular-cli-1.0.0-beta.10.tgz
+443 silly lockFile 4ecd2dac-angular-cli-1-0-0-beta-10 angular-cli@1.0.0-beta.10
+444 silly lockFile 4ecd2dac-angular-cli-1-0-0-beta-10 angular-cli@1.0.0-beta.10
+445 silly lockFile 5e40e1bb-angular-cli angular-cli@
+446 silly lockFile 5e40e1bb-angular-cli angular-cli@
+447 silly resolved [ { name: 'angular-cli',
+447 silly resolved     version: '1.0.0-beta.10',
+447 silly resolved     description: 'CLI tool for Angular',
+447 silly resolved     main: 'lib/cli/index.js',
+447 silly resolved     trackingCode: 'UA-8594346-19',
+447 silly resolved     bin: { ng: './bin/ng' },
+447 silly resolved     keywords: [],
+447 silly resolved     scripts:
+447 silly resolved      { test: 'node tests/runner',
+447 silly resolved        mobile_test: 'mocha tests/e2e/e2e_workflow.spec.js',
+447 silly resolved        lint: 'eslint .' },
+447 silly resolved     repository:
+447 silly resolved      { type: 'git',
+447 silly resolved        url: 'https://github.com/angular/angular-cli.git' },
+447 silly resolved     engines: { node: '>= 4.1.0' },
+447 silly resolved     author: { name: 'Angular Authors' },
+447 silly resolved     contributors: [ [Object], [Object] ],
+447 silly resolved     license: 'MIT',
+447 silly resolved     bugs: { url: 'https://github.com/angular/angular-cli/issues' },
+447 silly resolved     homepage: 'https://github.com/angular/angular-cli',
+447 silly resolved     dependencies:
+447 silly resolved      { broccoli: '^1.0.0-beta.7',
+447 silly resolved        'broccoli-caching-writer': '^2.2.1',
+447 silly resolved        'broccoli-concat': '^2.2.0',
+447 silly resolved        'broccoli-funnel': '^1.0.1',
+447 silly resolved        'broccoli-merge-trees': '^1.1.1',
+447 silly resolved        'broccoli-source': '^1.1.0',
+447 silly resolved        'broccoli-uglify-js': '^0.1.3',
+447 silly resolved        'broccoli-writer': '^0.1.1',
+447 silly resolved        chalk: '^1.1.3',
+447 silly resolved        denodeify: '^1.2.1',
+447 silly resolved        'ember-cli': '2.5.0',
+447 silly resolved        'ember-cli-string-utils': '^1.0.0',
+447 silly resolved        'es6-promise': '^3.2.1',
+447 silly resolved        exit: '^0.1.2',
+447 silly resolved        'fs-extra': '^0.30.0',
+447 silly resolved        glob: '^7.0.3',
+447 silly resolved        handlebars: '^4.0.5',
+447 silly resolved        leek: '0.0.21',
+447 silly resolved        lodash: '^4.11.1',
+447 silly resolved        npm: '3.10.2',
+447 silly resolved        opn: '4.0.1',
+447 silly resolved        resolve: '^1.1.7',
+447 silly resolved        shelljs: '^0.7.0',
+447 silly resolved        'silent-error': '^1.0.0',
+447 silly resolved        'symlink-or-copy': '^1.0.3',
+447 silly resolved        'systemjs-builder': '0.15.20',
+447 silly resolved        typescript: '^1.8.10',
+447 silly resolved        typings: '^0.8.1' },
+447 silly resolved     'ember-addon': { paths: [Object] },
+447 silly resolved     devDependencies:
+447 silly resolved      { chai: '^3.5.0',
+447 silly resolved        'conventional-changelog': '^1.1.0',
+447 silly resolved        eslint: '^2.8.0',
+447 silly resolved        'exists-sync': '0.0.3',
+447 silly resolved        minimatch: '^3.0.0',
+447 silly resolved        mocha: '^2.4.5',
+447 silly resolved        'mock-fs': '3.10.0',
+447 silly resolved        'object-assign': '^4.0.1',
+447 silly resolved        rewire: '^2.5.1',
+447 silly resolved        sinon: '^1.17.3',
+447 silly resolved        through: '^2.3.8',
+447 silly resolved        'tree-kill': '^1.0.0',
+447 silly resolved        tslint: '^3.8.1',
+447 silly resolved        'walk-sync': '^0.2.6' },
+447 silly resolved     readme: '## Angular-CLI\n\n[![Join the chat at https://gitter.im/angular/angular-cli](https://badges.gitter.im/angular/angular-cli.svg)](https://gitter.im/angular/angular-cli?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n[![Build Status][travis-badge]][travis-badge-url]\n[![Dependency Status][david-badge]][david-badge-url]\n[![devDependency Status][david-dev-badge]][david-dev-badge-url]\n[![npm][npm-badge]][npm-badge-url]\n\nPrototype of a CLI for Angular 2 applications based on the [ember-cli](http://www.ember-cli.com/) project.\n\n## Note\n\nThis project is very much still a work in progress.\n\nThe CLI is now in beta. \nIf you wish to collaborate while the project is still young, check out [our issue list](https://github.com/angular/angular-cli/issues).\n\n## Prerequisites\n\nThe generated project has dependencies that require \n* **Node 4 or greater**.\n* **Typings v1 or greater**.\n\n## Table of Contents\n\n* [Installation](#installation)\n* [Usage](#usage)\n* [Generating a New Project](#generating-and-serving-an-angular2-project-via-a-development-server)\n* [Generating Components, Directives, Pipes and Services](#generating-components-directives-pipes-and-services)\n* [Generating a Route](#generating-a-route)\n* [Creating a Build](#creating-a-build)\n* [Environments](#environments)\n* [Bundling](#bundling)\n* [Running Unit Tests](#running-unit-tests)\n* [Running End-to-End Tests](#running-end-to-end-tests)\n* [Deploying the App via GitHub Pages](#deploying-the-app-via-github-pages)\n* [Linting and formatting code](#linting-and-formatting-code)\n* [Support for offline applications](#support-for-offline-applications)\n* [Commands autocompletion](#commands-autocompletion)\n* [CSS preprocessor integration](#css-preprocessor-integration)\n* [3rd Party Library Installation](#3rd-party-library-installation)\n* [Updating angular-cli](#updating-angular-cli)\n* [Known Issues](#known-issues)\n* [Development Hints for hacking on angular-cli](#development-hints-for-hacking-on-angular-cli)\n\n## Installation\n\n**BEFORE YOU INSTALL:** please read the [prerequisites](#prerequisites)\n```bash\nnpm install -g angular-cli\n```\n\n## Usage\n\n```bash\nng --help\n```\n\n### Generating and serving an Angular2 project via a development server\n\n```bash\nng new PROJECT_NAME\ncd PROJECT_NAME\nng serve\n```\nNavigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.\n\nYou can configure the default HTTP port and the one used by the LiveReload server with two command-line options :\n\n```bash\nng serve --port 4201 --live-reload-port 49153\n```\n\n### Generating Components, Directives, Pipes and Services\n\nYou can use the `ng generate` (or just `ng g`) command to generate Angular components:\n\n```bash\nng generate component my-new-component\nng g component my-new-component # using the alias\n\n# components support relative path generation\n# if in the directory src/app/feature/ and you run\nng g component new-cmp\n# your component will be generated in src/app/feature/new-cmp\n# but if you were to run\nng g component ../newer-cmp\n# your component will be generated in src/app/newer-cmp\n```\nYou can find all possible blueprints in the table below:\n\nScaffold  | Usage\n---       | ---\nComponent | `ng g component my-new-component`\nDirective | `ng g directive my-new-directive`\nPipe      | `ng g pipe my-new-pipe`\nService   | `ng g service my-new-service`\nClass     | `ng g class my-new-class`\nInterface | `ng g interface my-new-interface`\nEnum      | `ng g enum my-new-enum`\n\n### Generating a route\n\nGenerating routes in the CLI has been disabled for the time being. A new router and new route generation blueprints are coming.\n\nYou can read the official documentation for the new Router here: https://angular.io/docs/ts/latest/guide/router.html. Please note that even though route generation is disabled, building your projects with routing is still fully supported.\n\n### Creating a build\n\n```bash\nng build\n```\n\nThe build artifacts will be stored in the `dist/` directory.\n\n### Environments\n\nAt build time, the `src/app/environment.ts` will be replaced by either\n`config/environment.dev.ts` or `config/environment.prod.ts`, depending on the\ncurrent cli environment. The resulting file will be `dist/app/environment.ts`.\n\nEnvironment defaults to `dev`, but you can generate a production build via\nthe `-prod` flag in either `ng build -prod` or `ng serve -prod`.\n\nYou can also add your own env files other than `dev` and `prod` by creating a\n`config/environment.{NAME}.ts` and use them by using the `--env=NAME`\nflag on the build/serve commands.\n\n### Bundling\n\nBuilds created with the `-prod` flag via `ng build -prod` or `ng serve -prod` bundle\nall dependencies into a single file, and make use of tree-shaking techniques.\n\n### Running unit tests\n\n```bash\nng test\n```\n\nTests will execute after a build is executed via [Karma](http://karma-runner.github.io/0.13/index.html), and it will automatically watch your files for changes.\n\nYou can run tests a single time via `--watch=false`, and turn off building of the app via `--build=false` (useful for running it at the same time as `ng serve`).\n\n**WARNING:** On Windows, `ng test` is hitting a file descriptor limit (see https://github.com/angular/angular-cli/issues/977).\nThe solution for now is to instead run `ng serve` and `ng test --build=false` in separate console windows. \n\n\n### Running end-to-end tests\n\n```bash\nng e2e\n```\n\nBefore running the tests make sure you are serving the app via `ng serve`.\n\nEnd-to-end tests are ran via [Protractor](https://angular.github.io/protractor/).\n\n\n### Deploying the app via GitHub Pages\n\nYou can deploy your apps quickly via:\n\n```\nng github-pages:deploy --message "Optional commit message"\n```\n\nThis will do the following:\n\n- creates GitHub repo for the current project if one doesn\'t exist\n- rebuilds the app in production mode at the current `HEAD`\n- creates a local `gh-pages` branch if one doesn\'t exist\n- moves your app to the `gh-pages` branch and creates a commit\n- edit the base tag in index.html to support github pages\n- pushes the `gh-pages` branch to github\n- returns back to the original `HEAD`\n\nCreating the repo requires a token from github, and the remaining functionality\nrelies on ssh authentication for all git operations that communicate with github.com.\nTo simplify the authentication, be sure to [setup your ssh keys](https://help.github.com/articles/generating-ssh-keys/).\n\nIf you are deploying a [user or organization page](https://help.github.com/articles/user-organization-and-project-pages/), you can instead use the following command:\n\n```\nng github-pages:deploy --user-page --message "Optional commit message"\n```\n\nThis command pushes the app to the `master` branch on the github repo instead\nof pushing to `gh-pages`, since user and organization pages require this.\n\n\n### Linting and formatting code\n\nYou can lint your app code by running `ng lint`.\nThis will use the `lint` npm script that in generated projects uses `tslint`.\n\nYou can modify the these scripts in `package.json` to run whatever tool you prefer.\n\n### Support for offline applications\n\nThe index.html file includes a commented-out code snippet for installing the angular2-service-worker. This support is experimental, please see the angular/mobile-toolkit project and https://mobile.angular.io/ for documentation on how to make use of this functionality.\n\n### Commands autocompletion\n\nTo turn on auto completion use the following commands:\n\nFor bash:\n```bash\nng completion >> ~/.bashrc\nsource ~/.bashrc\n```\n\nFor zsh:\n```bash\nng completion >> ~/.zshrc\nsource ~/.zshrc\n```\n\nWindows users using gitbash:\n```bash\nng completion >> ~/.bash_profile\nsource ~/.bash_profile\n```\n\n\n### CSS Preprocessor integration\n\nWe support all major CSS preprocessors:\n- sass (node-sass)\n- less (less)\n- compass (compass-importer + node-sass)\n- stylus (stylus)\n\nTo use one just install for example `npm install node-sass` and rename `.css` files in your project to `.scss` or `.sass`. They will be compiled automatically.\n\nThe `Angular2App`\'s options argument has `sassCompiler`, `lessCompiler`, `stylusCompiler` and `compassCompiler` options that are passed directly to their respective CSS preprocessors.\n\n### 3rd Party Library Installation\n\nThe installation of 3rd party libraries are well described at our [Wiki Page](https://github.com/angular/angular-cli/wiki/3rd-party-libs)\n\n### Updating angular-cli\n\nTo update `angular-cli` to a new version, you must update both the global package and your project\'s local package.\n\nGlobal package:\n```\nnpm uninstall -g angular-cli\nnpm cache clean\nnpm install -g angular-cli@latest\n```\n\nLocal project package:\n```\nrm -rf node_modules dist tmp\nnpm install --save-dev angular-cli@latest\nng init\n```\n\nRunning `ng init` will check for changes in all the auto-generated files created by `ng new` and allow you to update yours. You are offered four choices for each changed file: `y` (overwrite), `n` (don\'t overwrite), `d` (show diff between your file and the updated file) and `h` (help).\n\nCarefully read the diffs for each code file, and either accept the changes or incorporate them manually after `ng init` finishes.\n\n**The main cause of errors after an update is failing to incorporate these updates into your code**. \n\nYou can find more details about changes between versions in [CHANGELOG.md](https://github.com/angular/angular-cli/blob/master/CHANGELOG.md).\n\n\n## Known issues\n\nThis project is currently a prototype so there are many known issues. Just to mention a few:\n\n- All blueprints/scaffolds are in TypeScript only, in the future blueprints in all dialects officially supported by Angular will be available.\n- On Windows you need to run the `build` and `serve` commands with Admin permissions, otherwise the performance is not good.\n- The initial installation as well as `ng new` take too long because of lots of npm dependencies.\n- Many existing ember addons are not compatible with Angular apps built via angular-cli.\n- When you `ng serve` remember that the generated project has dependencies that require **Node 4 or greater**.\n\n\n## Development Hints for hacking on angular-cli\n\n### Working with master\n\n```bash\ngit clone https://github.com/angular/angular-cli.git\ncd angular-cli\nnpm link\n```\n\n`npm link` is very similar to `npm install -g` except that instead of downloading the package\nfrom the repo, the just cloned `angular-cli/` folder becomes the global package.\nAny changes to the files in the `angular-cli/` folder will immediately affect the global `angular-cli` package,\nallowing you to quickly test any changes you make to the cli project.\n\nNow you can use `angular-cli` via the command line:\n\n```bash\nng new foo\ncd foo\nnpm link angular-cli\nng serve\n```\n\n`npm link angular-cli` is needed because by default the globally installed `angular-cli` just loads\nthe local `angular-cli` from the project which was fetched remotely from npm.\n`npm link angular-cli` symlinks the global `angular-cli` package to the local `angular-cli` package.\nNow the `angular-cli` you cloned before is in three places:\nThe folder you cloned it into, npm\'s folder where it stores global packages and the `angular-cli` project you just created.\n\nPlease read the official [npm-link documentation](https://www.npmjs.org/doc/cli/npm-link.html)\nand the [npm-link cheatsheet](http://browsenpm.org/help#linkinganynpmpackagelocally) for more information.\n\n\n## License\n\nMIT\n\n\n[travis-badge]: https://travis-ci.org/angular/angular-cli.svg?branch=master\n[travis-badge-url]: https://travis-ci.org/angular/angular-cli\n[david-badge]: https://david-dm.org/angular/angular-cli.svg\n[david-badge-url]: https://david-dm.org/angular/angular-cli\n[david-dev-badge]: https://david-dm.org/angular/angular-cli/dev-status.svg\n[david-dev-badge-url]: https://david-dm.org/angular/angular-cli#info=devDependencies\n[npm-badge]: https://img.shields.io/npm/v/angular-cli.svg\n[npm-badge-url]: https://www.npmjs.com/package/angular-cli\n',
+447 silly resolved     readmeFilename: 'README.md',
+447 silly resolved     _id: 'angular-cli@1.0.0-beta.10',
+447 silly resolved     dist: { shasum: '6259f8d31fcbaa2b8393f6c20edbfaa95f8c5693' },
+447 silly resolved     _from: 'angular-cli@',
+447 silly resolved     _resolved: 'https://registry.npmjs.org/angular-cli/-/angular-cli-1.0.0-beta.10.tgz' } ]
+448 info install angular-cli@1.0.0-beta.10 into /usr/local/lib
+449 info installOne angular-cli@1.0.0-beta.10
+450 warn engine angular-cli@1.0.0-beta.10: wanted: {"node":">= 4.1.0"} (current: {"node":"v0.10.25","npm":"1.3.10"})
+451 info /usr/local/lib/node_modules/angular-cli unbuild
+452 verbose tar unpack /home/sophia/.npm/angular-cli/1.0.0-beta.10/package.tgz
+453 silly lockFile a326e302-cal-lib-node-modules-angular-cli tar:///usr/local/lib/node_modules/angular-cli
+454 verbose lock tar:///usr/local/lib/node_modules/angular-cli /home/sophia/.npm/a326e302-cal-lib-node-modules-angular-cli.lock
+455 silly lockFile 47c27603-ar-cli-1-0-0-beta-10-package-tgz tar:///home/sophia/.npm/angular-cli/1.0.0-beta.10/package.tgz
+456 verbose lock tar:///home/sophia/.npm/angular-cli/1.0.0-beta.10/package.tgz /home/sophia/.npm/47c27603-ar-cli-1-0-0-beta-10-package-tgz.lock
+457 silly gunzTarPerm modes [ '755', '644' ]
+458 error Error: EACCES, mkdir '/usr/local/lib/node_modules'
+458 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules']
+458 error   errno: 3,
+458 error   code: 'EACCES',
+458 error   path: '/usr/local/lib/node_modules',
+458 error   fstream_type: 'Directory',
+458 error   fstream_path: '/usr/local/lib/node_modules/angular-cli',
+458 error   fstream_class: 'DirWriter',
+458 error   fstream_stack:
+458 error    [ '/usr/lib/nodejs/fstream/lib/writer.js:171:23',
+458 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+458 error      'Object.oncomplete (fs.js:107:15)' ] }
+459 error Please try running this command again as root/Administrator.
+460 error System Linux 3.16.0-38-generic
+461 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "angular-cli"
+462 error cwd /home/sophia/IdeaProjects/sg-sandbox/AngularPilot
+463 error node -v v0.10.25
+464 error npm -v 1.3.10
+465 error path /usr/local/lib/node_modules
+466 error fstream_path /usr/local/lib/node_modules/angular-cli
+467 error fstream_type Directory
+468 error fstream_class DirWriter
+469 error code EACCES
+470 error errno 3
+471 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules'
+472 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:171:23
+472 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+472 error fstream_stack Object.oncomplete (fs.js:107:15)
+473 verbose exit [ 3, true ]

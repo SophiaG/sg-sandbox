@@ -1,4 +1,4 @@
-package com.spring.demo;
+package com.spring.example;
 
 /**
  * Created by sophia on 11/08/16.
